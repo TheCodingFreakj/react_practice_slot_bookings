@@ -1,0 +1,82 @@
+ul.nav-links {
+  display: flex;
+  flex-direction: column-reverse;
+  list-style: none;
+}
+
+ul.nav-links li {
+  margin-top: 4rem;
+  margin-left: 13rem;
+}
+
+ul.nav-links li a {
+  background-color: aqua;
+  margin: 0 3rem;
+  padding: 1rem;
+}
+
+.sidedrawer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  height: 100vh;
+  background-color: yellowgreen;
+  box-shadow: 0 2px 8px rebeccapurple;
+}
+
+.main-sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  height: 100vh;
+  width: 100vh;
+  background-color: rgb(46, 54, 31);
+  box-shadow: 0 2px 8px rgb(37, 17, 56);
+}
+
+nav.monile_nav {
+  width: 300px;
+}
+ul.mobile-links {
+  list-style: none;
+}
+
+ul.mobile-links li {
+  margin-top: 2rem;
+}
+
+ul.mobile-links li a {
+  background-color: aqua;
+  margin: 3rem;
+  padding: 4%;
+}
+
+.slide-in-left {
+  transform: translateX(-100%);
+}
+
+.slide-in-left-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 300ms;
+}
+.slide-in-left-exit {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.slide-in-left-exit-active {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: all 300ms;
+}
+
+button.main-nav-menu-button-close {
+  font-size: 2rem;
+  position: relative;
+  left: 1rem;
+  top: 1rem;
+  background: yellow;
+}
